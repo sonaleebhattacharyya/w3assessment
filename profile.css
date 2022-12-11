@@ -1,0 +1,29 @@
+#prof-pic{
+    width: 200px; 
+    border-radius: 50%; 
+    border: sold purple 3px;
+}
+#img{
+    border: solid rgb(169, 169, 169) 1px; 
+    height: 300px; 
+    width: 250px:
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    border-radius: 10px;
+}
+
+.top{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+.interests{
+    display: flex;
+    justify-content: space-between; 
+}
+.interest-icon{
+    height: 100px; 
+    width: 100px; 
+    border-radius: 50%; 
+}
