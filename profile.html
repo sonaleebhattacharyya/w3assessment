@@ -1,21 +1,60 @@
-<div class="about-section">
-    <h1>About Me</h1>
-    <p>I am a mathematics lecturer and currently studying data science. I also study the bansuri (Indian bamboo flute) and Indian 
-    classical music.Here is a link to my blog, where I write about teaching math, data science, and publish my interviews with musicians 
-    for a series titled "Artist Reflections" (https://sonaleebhattacharyya.medium.com). I am also actively involved in promoting my
-    partner's Indian classical sitar school (www.antaraschool.com).
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <ol>
+        <li class="crumb"><a href="./home.html">Home</a></li>
+        <li class="crumb"><a href="./profile.html">Profile</a></li>
+        <li class="crumb"><a href="./about.html">About</a></li>
+      </ol>
+    </nav>
 
-  </div>
-  <button id="color">My Favorite Color</button>
-<button id="place">My Favorite Place</button>
-<button id="ritual">My Favorite Ritual</button>
-  <h2 style="text-align:center">Highlights</h2>
-          <h2>Sonalee Bhattacharyya</h2>
-          <p class="title">Mathematics Lecturer</p>
-          <p>sunball@gmail.com</p>
-          <p><button class="button">Contact Me!</button></p>
-        </div>
+    <section>
+      <img
+        src="https://miro.medium.com/fit/c/176/176/1*tRg3t4ZaQmgNy21JUa7RPw.jpeg"
+        alt="Sonalee Bhattacharyya"
+      />
+    </section>
+
+    <section class="info-section">
+      <div class="info-container">
+        <h3>Skills</h3>
+        <ul>
+          <li>SQL</li>
+          <li>Javascript</li>
+          <li>HTML/CSS</li>
+          <li>Python</li>
+        </ul>
       </div>
-    </div>
-  
-<a href="./home.html"><< Back </a>
+      <div class="info-container">
+        <h3>Interests</h3>
+        <ul>
+          <li>Data Analysis and Science</li>
+          <li>Indian Classical Music</li>
+          <li>Blogging</li>
+          <li>Toddler Activities</li>
+        </ul>
+      </div>
+      <div class="info-container">
+        <h3>Career Goals</h3>
+        <ul>
+          <li>Become a data scientist</li>
+          <li>Learn as much as possible!</li>
+        </ul>
+      </div>
+    </section>
+
+    <button id="color" class="fav-btn" style="margin-top: 25px;">My Favorite Color</button>
+    <button id="place" class="fav-btn">My Favorite Place</button>
+    <button id="ritual" class="fav-btn">My Favorite Ritual</button>
+    <script src="profile.js"></script>
+  </body>
+</html>
